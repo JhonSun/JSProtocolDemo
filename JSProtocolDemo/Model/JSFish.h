@@ -1,17 +1,14 @@
 //
-//  ViewController.h
+//  JSFish.h
 //  JSProtocolDemo
 //
 //  Created by ShengWang Gao on 2017/5/15.
 //  Copyright © 2017年 ShengWang Gao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import "JSSwimming.h"
 
-@interface ViewController : UIViewController
-
-@property (weak, nonatomic) id<JSSwimming> swimmingDelegate;
+@interface JSFish : NSObject<JSSwimming>
 
 @end
-

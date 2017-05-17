@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812F542F1ECC382E000094EC /* JSBlackFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F542E1ECC382E000094EC /* JSBlackFish.m */; };
+		812F54321ECC38B2000094EC /* JSYellowFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 812F54311ECC38B2000094EC /* JSYellowFish.m */; };
 		8135C9741EC94086003997E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135C9731EC94086003997E3 /* main.m */; };
 		8135C9771EC94086003997E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135C9761EC94086003997E3 /* AppDelegate.m */; };
 		8135C97A1EC94086003997E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135C9791EC94086003997E3 /* ViewController.m */; };
 		8135C97D1EC94086003997E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8135C97B1EC94086003997E3 /* Main.storyboard */; };
 		8135C97F1EC94086003997E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8135C97E1EC94086003997E3 /* Assets.xcassets */; };
 		8135C9821EC94086003997E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8135C9801EC94086003997E3 /* LaunchScreen.storyboard */; };
+		8135C99F1EC945FA003997E3 /* JSAbstractBaseFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135C9981EC945FA003997E3 /* JSAbstractBaseFish.m */; };
+		8135C9A01EC945FA003997E3 /* JSFish.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135C99A1EC945FA003997E3 /* JSFish.m */; };
+		8135C9A11EC945FA003997E3 /* JSFrog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135C99C1EC945FA003997E3 /* JSFrog.m */; };
+		8135C9A21EC945FA003997E3 /* JSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135C99E1EC945FA003997E3 /* JSPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		812F542D1ECC382E000094EC /* JSBlackFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBlackFish.h; sourceTree = "<group>"; };
+		812F542E1ECC382E000094EC /* JSBlackFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBlackFish.m; sourceTree = "<group>"; };
+		812F54301ECC38B2000094EC /* JSYellowFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSYellowFish.h; sourceTree = "<group>"; };
+		812F54311ECC38B2000094EC /* JSYellowFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSYellowFish.m; sourceTree = "<group>"; };
 		8135C96F1EC94086003997E3 /* JSProtocolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSProtocolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8135C9731EC94086003997E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8135C9751EC94086003997E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,15 @@
 		8135C97E1EC94086003997E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8135C9811EC94086003997E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8135C9831EC94086003997E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8135C9891EC941EC003997E3 /* JSSwimming.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSSwimming.h; sourceTree = "<group>"; };
+		8135C9971EC945FA003997E3 /* JSAbstractBaseFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAbstractBaseFish.h; sourceTree = "<group>"; };
+		8135C9981EC945FA003997E3 /* JSAbstractBaseFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAbstractBaseFish.m; sourceTree = "<group>"; };
+		8135C9991EC945FA003997E3 /* JSFish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFish.h; sourceTree = "<group>"; };
+		8135C99A1EC945FA003997E3 /* JSFish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFish.m; sourceTree = "<group>"; };
+		8135C99B1EC945FA003997E3 /* JSFrog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSFrog.h; sourceTree = "<group>"; };
+		8135C99C1EC945FA003997E3 /* JSFrog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSFrog.m; sourceTree = "<group>"; };
+		8135C99D1EC945FA003997E3 /* JSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPerson.h; sourceTree = "<group>"; };
+		8135C99E1EC945FA003997E3 /* JSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,8 @@
 		8135C9711EC94086003997E3 /* JSProtocolDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8135C9961EC945C8003997E3 /* Model */,
+				8135C9891EC941EC003997E3 /* JSSwimming.h */,
 				8135C9751EC94086003997E3 /* AppDelegate.h */,
 				8135C9761EC94086003997E3 /* AppDelegate.m */,
 				8135C9781EC94086003997E3 /* ViewController.h */,
@@ -77,6 +98,25 @@
 				8135C9731EC94086003997E3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8135C9961EC945C8003997E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8135C9971EC945FA003997E3 /* JSAbstractBaseFish.h */,
+				8135C9981EC945FA003997E3 /* JSAbstractBaseFish.m */,
+				8135C9991EC945FA003997E3 /* JSFish.h */,
+				8135C99A1EC945FA003997E3 /* JSFish.m */,
+				8135C99B1EC945FA003997E3 /* JSFrog.h */,
+				8135C99C1EC945FA003997E3 /* JSFrog.m */,
+				8135C99D1EC945FA003997E3 /* JSPerson.h */,
+				8135C99E1EC945FA003997E3 /* JSPerson.m */,
+				812F542D1ECC382E000094EC /* JSBlackFish.h */,
+				812F542E1ECC382E000094EC /* JSBlackFish.m */,
+				812F54301ECC38B2000094EC /* JSYellowFish.h */,
+				812F54311ECC38B2000094EC /* JSYellowFish.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,12 +145,13 @@
 		8135C9671EC94086003997E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JS;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "ShengWang Gao";
 				TargetAttributes = {
 					8135C96E1EC94086003997E3 = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -151,7 +192,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8135C97A1EC94086003997E3 /* ViewController.m in Sources */,
+				8135C99F1EC945FA003997E3 /* JSAbstractBaseFish.m in Sources */,
 				8135C9771EC94086003997E3 /* AppDelegate.m in Sources */,
+				8135C9A01EC945FA003997E3 /* JSFish.m in Sources */,
+				812F54321ECC38B2000094EC /* JSYellowFish.m in Sources */,
+				812F542F1ECC382E000094EC /* JSBlackFish.m in Sources */,
+				8135C9A21EC945FA003997E3 /* JSPerson.m in Sources */,
+				8135C9A11EC945FA003997E3 /* JSFrog.m in Sources */,
 				8135C9741EC94086003997E3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,10 +321,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JSProtocolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tchcn.JSProtocolDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -285,10 +334,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JSProtocolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tchcn.JSProtocolDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -311,6 +362,7 @@
 				8135C9881EC94086003997E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
